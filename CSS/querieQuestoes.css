@@ -1,0 +1,111 @@
+@media screen and (max-width: 2000px) {
+  .layout_container_main_inputs {
+    width: 53%;
+    gap: 1.25rem;
+  }
+  .input_text {
+    padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+  }
+  .component_title_questoes {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .layout_container_main_inputs {
+    width: 53%;
+    gap: 1.25rem;
+  }
+  .input_text {
+    padding: 1.5rem 2rem;
+    font-size: 1.2rem;
+  }
+  .component_title_questoes {
+    font-size: 3rem;
+  }
+  .component_button {
+    padding: 1rem 4rem; 
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .layout_container_main_inputs {
+    width: 53%;
+    gap: 1.25rem;
+  }
+  .input_text {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    width: 300px;
+    font-size: 0.9rem;
+  }
+  .component_title_questoes {
+    font-size: 3rem;
+  }
+  .component_button {
+    padding: 0.8rem 3.5rem; 
+    font-size: 0.9rem;
+  }
+  .layout_container_input label {
+    font-size:  0.9rem;
+  }
+}
+@media screen and (max-width: 825px) {
+
+  .input_text {
+    padding: 1rem 1.2rem;
+    font-size: 1.2rem;
+    width: 240px;
+    font-size: 0.8rem;
+  }
+  .component_title_questoes {
+    font-size: 3rem;
+  }
+  .component_button {
+    padding: 0.8rem 3.5rem; 
+    font-size: 0.8rem;
+  }
+  .layout_container_input label {
+    font-size:  0.8rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .layout_container_main_inputs {
+    flex-direction: column;
+  }
+  .input_text {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    width: 240px;
+  }
+  .component_title_questoes {
+    font-size: 2rem;
+  }
+  .component_button {
+    padding: 0.8rem 3.5rem; 
+    font-size: 1rem;
+  }
+  .layout_container_input label {
+    font-size:  1rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .layout_container_main_inputs {
+    flex-direction: column;
+  }
+  .input_text {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+    width: 240px;
+  }
+  .component_title_questoes {
+    font-size: 1.5rem;
+  }
+  .component_button {
+    padding: 0.8rem 3rem; 
+    font-size: 0.8rem;
+  }
+  .layout_container_input label {
+    font-size:  0.8rem;
+  }
+}

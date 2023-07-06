@@ -1,0 +1,54 @@
+body {
+  display: flex;
+}
+
+.layout_questoes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  padding: 2rem 1rem;
+  gap: 3rem;
+}
+.layout_container_title_questoes {
+  align-self: flex-start;
+  width: 100%;
+}
+.component_title_questoes {
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+.layout_container_main_inputs {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.input_text {
+  width: 400px;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1.25rem;
+}
+.layout_container_input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.layout_container_input label {
+  font-size: 1.25rem;
+}
+.component_button {
+  background-color: black;
+  padding: 2rem 6rem;
+  border: none;
+  color: white;
+  border-radius: 1.25rem;
+  font-size: 1.25rem;
+}
+.component_button:active {
+  position: relative;
+  bottom: -2px; 
+}
