@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../CSS/querieSideBar.css">
 </head>
 <body>
-  <div class="layout_sidebar_visible">
+  <div class="layout_sidebar_visible altura">
     <div class="layout_container_svg grow">
       <figure>
         <img src="../Assets/svg/Ícone do Menu.svg"  class="component_svg_sidebar" alt="" id="sidebar_button">
@@ -36,7 +36,7 @@
   <!-- Sidebar não vísivel-->
   <div class="layout_sidebar_hidden">
     <div class="layout_container_title_sidebar_hidden">
-      <h1 class="component_title_sidebar_hidden bold">Educa</h1>
+      <a href="#"><h1 class="component_title_sidebar_hidden bold">Educa</h1></a>
       <figure>
         <img src="../Assets/svg/Ícone do Menu.svg" alt="" class="component_menu" id="back_button">
       </figure>
@@ -102,21 +102,26 @@
     <div class="layout_container_main_drop2">
       <div class="layout_main_container_drop">
         <p class="component_label bold">Período para analisar</p>
-        <div class="layout_container_dropdown">
-          <p class="component_text_drop">Últimos 7 dias</p>
-          <figure>
-            <img src="../Assets/svg/arrowdown2.svg" alt="" class="component_svg">
-          </figure>
-        </div>
+        <select name="" class="layout_container_dropdown component_text_drop">
+          <option value="ultimo_sete_dias" selected>Últimos 7 dias</option>
+          <option value="semana_passada">Semana Passada</option>
+          <option value="esta_semana">Esta Semana</option>
+          <option value="mes_passado">Mês passado</option>
+          <option value="este_mes">Este mês</option>
+          <option value="mes_passado">Mês passado</option>
+          <option value="ultimos_quinze_dias">Últimos 15 dias</option>
+          <option value="ultimos_trinta_dias">Últimos 30 dias</option>
+          <option value="ultimos_três_meses">Últimos 3 meses</option>
+          <option value="ultimos_seis_meses">Últimos 6 meses</option>
+        </select>
       </div>
       <div class="layout_main_container_drop">
         <p class="component_label bold">Formato</p>
-        <div class="layout_container_dropdown">
-          <p class="component_text_drop">Diariamente</p>
-          <figure>
-            <img src="../Assets/svg/arrowdown2.svg" alt="" class="component_svg">
-          </figure>
-        </div>
+        <select name="" id="" class="layout_container_dropdown component_text_drop">
+          <option value="diariamente" selected>Diariamente</option>
+          <option value="diariamente">Semanalmente</option>
+          <option value="diariamente">Mensalmente</option>
+        </select>
       </div>
     </div>
     <div>
@@ -137,9 +142,12 @@
       <div>
         <div class="layout_container_disciplinas ">
           <h1 class="component_disciplina_ordem">Ordem das disciplinas</h1>
-          <div class="layout_container_alfa">
-            <p>Alfabética</p>
-          </div>
+          <select name="" class="layout_container_alfa component_text_drop">
+            <option value="alfabetica" selected>Alfabética</option>
+            <option value="mais_praticadas" selected>Mais praticadas</option>
+            <option value="mais_acertos" selected>Mais acertos</option>
+            <option value="mais_erros" selected>Mais erros</option>
+          </select>
         </div>
       </div>
     </div>

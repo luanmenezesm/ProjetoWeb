@@ -5,6 +5,7 @@
   .layout_container_dropdown {
     width: 30rem;
     padding: 1.5rem 2.5rem;
+    appearance: none;
   }
   .component_label {
     font-size: 1.5rem;

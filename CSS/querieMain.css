@@ -1,6 +1,6 @@
 @media screen and (max-width: 2000px) {
   .component_button_content {
-    padding: 2rem 3.5rem;
+    padding: .70rem 3.5rem;
     font-size: 2rem;
   }
   .component_button_content img {
@@ -117,18 +117,21 @@
   }
   .component_button_content {
     font-size: 1.4rem;
-    padding: 1.5rem 2.5rem;
+    padding: 0.70rem 2.5rem;
   }
   .component_button_content img {
     width: 35px;
     height: 35px;
   }
   .component_title_footer {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .component_svg_footer {
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
+  }
+  .layout_container_text_footer {
+    font-size: 1.2rem;
   }
 }
 
@@ -145,7 +148,7 @@
     left: 80%;
   }
   .component_button_content {
-    padding: 2rem 3rem;
+    padding: .70rem 3rem;
     font-size: 1.8rem;
   }
   .component_text_content {
@@ -172,7 +175,7 @@
     font-size: 2.5rem;
   }
   .component_button_content {
-    padding: 1.8rem 2.5rem;
+    padding: 0.70rem 2.5rem;
     font-size: 1.6rem;
   }
   .component_img_dicas  {
@@ -208,7 +211,7 @@
   }
   .component_button_content {
     font-size: 1rem;
-    padding: 1.4rem 2rem;
+    padding: .70rem 2rem;
   } 
   .component_button_content img {
     width: 30px;
@@ -298,7 +301,7 @@
   }
   .component_button_content {
     font-size: .8rem;
-    padding: 1rem 1.3rem;
+    padding: .70rem 1.3rem;
   }
   .component_button_header {
     font-size: 1rem;
@@ -335,7 +338,7 @@
     font-size: 0.8rem;
   }
   .component_button_header {
-    font-size: .8rem;
+    font-size:  .50rem .80rem;
   }
   .component_button_content {
     padding: 0.8rem;
@@ -384,18 +387,18 @@
     top: 19%;
   }
   .layout_container_text_footer{
-    font-size: 1rem;
+    font-size: 0.8rem;
     width: 53%;
   }
   .component_title_footer {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .component_svg_footer {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
   }
   .component_item_footer p {
-    font-size: 1rem;
+    font-size: .7rem;
   }
   .component_text_duvidas {
     font-size: 0.8rem;
@@ -509,8 +512,14 @@
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.456);
     z-index: 1;
   }
+  .layout_header {
+    background-color: white;
+  }
   .component_text_content {
     font-size: 1.8rem;
+  }
+  .component_title_side {
+    font-size: 1.1rem;
   }
   .layout_svg_content_2 {
     width: 200px;
@@ -638,7 +647,7 @@
   } 
   .layout_adicional_info_main {
     top: 60%;
-    left: 30%;
+    left: 25%;
     width: 200px;
   }
 }
@@ -687,7 +696,7 @@
   }
   .component_button_content {
     font-size: .6rem;
-    padding: .6rem;
+    padding: .50rem .80rem;
   }
   .component_button_content img {
     width: 13px;
@@ -749,6 +758,9 @@
   .layout_svg_content_1 {
     width: 130px;
     top: 30%;
+  }
+  .layout_main_content {
+    top: 9%;
   }
 }
 @media screen and (max-width: 377px) {
@@ -835,5 +847,15 @@
   }
   .component_button_content {
     top: 35%;
+  }
+  .component_title_footer {
+    font-size: 1.2rem;
+  }
+  .component_svg_footer {
+    width: 20px;
+    height: 20px;
+  }
+  .component_title_duvidas {
+    font-size: 1.1rem;
   }
 }

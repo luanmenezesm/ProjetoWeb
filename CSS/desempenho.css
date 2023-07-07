@@ -43,6 +43,10 @@ body {
   border-radius: 1.25rem;
   font-size: 1.25rem;
 }
+.component_button:active {
+  position: relative;
+  bottom: -2px;
+}
 .layout_container_button {
   display: flex;
   flex-direction: column;
@@ -65,4 +69,5 @@ body {
   background-color: lightgray;
   padding: 1rem 1.5rem;
   border-radius: 10px;
+  appearance: none;
 }

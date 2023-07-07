@@ -11,6 +11,8 @@ body {
   margin: 0 auto;
   transition: 0.6s;
   gap: 7%;
+  /* remover */
+
 }
 .layout_container_title_extra {
   width: 100% ;
@@ -62,4 +64,62 @@ body {
 .component_more_button:active {
   position: relative;
   top: 2px;
+}
+.layout_modal {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  position: absolute;
+  left: 30%;
+  top: 7%;
+  height: 90vh;
+  width: 45vw;
+  border-radius: 10px;
+  padding: 2rem;
+  z-index: 1;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.458);
+}
+.layout_container_header_modal {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.component_x {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.component_text_modal {
+  line-height: 1.5rem;
+}
+.layout_bottom_modal {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 140px;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.layout_bottom_modal:active {
+  position: relative;
+  top: -2px;
+}
+.layout_bottom_modal:hover {
+  background-color: rgb(37, 37, 37);
+}
+.arrow_modal {
+  width: 16px;
+  height: 16px;
+}
+.layout_rodape_modal {
+  display: flex;
+  width: 100%; 
+  justify-content: flex-end;
 }
