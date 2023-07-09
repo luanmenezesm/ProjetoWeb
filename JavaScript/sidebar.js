@@ -8,6 +8,7 @@ const extra = document.querySelector('#extra');
 const modal = document.querySelector('.layout_modal')
 const visible = document.querySelector('.layout_sidebar_visible');
 const X = document.querySelector('#x');
+const Done = document.querySelector('#done');
 
 
 this.addEventListener('load', () => {
@@ -42,6 +43,16 @@ extra_info.addEventListener('click', () => {
   visible.style.filter = 'blur(0px)'
 })
 X.addEventListener('click', () => {
+  modal.style.display = 'none'
+  extra_info.style.filter = 'blur(0px)'
+  visible.style.filter = 'blur(0px)'
+})
+X.addEventListener('click', () => {
+  modal.style.display = 'none'
+  extra_info.style.filter = 'blur(0px)'
+  visible.style.filter = 'blur(0px)'
+})
+Done.addEventListener('click', () => {
   modal.style.display = 'none'
   extra_info.style.filter = 'blur(0px)'
   visible.style.filter = 'blur(0px)'
